@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+:root{
+    --green: rgba(81, 143, 66, 0.79);
+    --black: rgba(0, 0, 0, 0.658); 
+    --white: rgba(255, 255, 255, 0.562) ;
+
+}
+body{
+    background-image: url(../assets/image/pj\ pp.webp);
+    background-size: cover;
+}
+form{
+margin:auto;
+width: 400px;
+min-height: 150px;
+margin-top: 180px;
+background: var(--black); 
+border-radius: 10px;
+padding: 10px;
+}
+button{
+
+width: 230px;
+height: 50px;
+background: var(--green);
+border-radius: 10px;
+margin-top: 30px;
+margin-left: 100px;
+border: none;
+
+}
+label{
+    color:white;
+}
+input{
+    margin-top: 20px; 
+    width: 400px;
+    height: 7vh;
+    border-radius: 2px; 
+    font-size: 15px;
+    background-color: D9D9D9;
+    border: none;
+}
+header{
+    background-color: var(--black); 
+    display:flex;
+    justify-content: flex-end;
+    padding: 15px;
+    gap: 10px;
+}
+header nav ol{
+    display:flex;
+    list-style-type: none;
+    gap: 20px;
+
+}
+header nav ol li{
+    text-decoration:none;
+    color:white;
+}
+header nav ol li a{
+    text-decoration:none;
+    color:white;
+    font-size: large;
+}
+p{
+    font-size: 50px; 
+    margin: auto; 
+}
+img{
+    margin-right: auto;
+    width: 70px;
+    height: 50px;
+    
+}
+.headings{
+    /* padding: 10px; */
+    margin: 10px;
+}
+.headings h1{
+color: white;
+font-family: Calibri;
+
+}
+
+.headings h2{
+    color:var(--green);
+    font-family: Calibri, serif;
+    }
+#green{
+    font-weight:bolder;
+}
+#grey{
+    background-color: var(--white);
+    text-decoration: none;
+}
+.cont{
+    width: 200px;
+    height: 650px;
+    background-color: var(--white);
+    border-color: var(--black);
+    border-style:groove;
+}
+.dlogo{
+   
+    width: 100px;
+    height: 70px;
+    margin-left: 40px;
+    
+}
+hr{
+    border-color: var(--black);
+    border-style:groove;
+}
+h4{
+    font-size: smaller;
+    padding: 10px;
+}
